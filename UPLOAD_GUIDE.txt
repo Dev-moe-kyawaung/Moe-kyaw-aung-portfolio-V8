@@ -1,0 +1,120 @@
+# 📋 GITHUB UPLOAD GUIDE
+# Moe-kyaw-aung-portfolio-V8
+# မြန်မာဘာသာ + English
+
+═══════════════════════════════════════════════════════════
+STEP 1 — Create Repository on GitHub
+═══════════════════════════════════════════════════════════
+
+1. Go to: https://github.com/new
+2. Repository name: Moe-kyaw-aung-portfolio-V8
+3. Description: 🤖 Android Senior Developer Portfolio V8 — Moe Kyaw Aung | Microsoft | Tachileik, Myanmar
+4. Set to: ✅ Public
+5. ❌ Do NOT initialize with README (we have our own)
+6. Click: [Create repository]
+
+═══════════════════════════════════════════════════════════
+STEP 2 — Upload Files (Web UI — Easiest Method)
+═══════════════════════════════════════════════════════════
+
+Option A: Drag & Drop (No Git required)
+───────────────────────────────────────
+1. Open your new empty repo on GitHub
+2. Click "uploading an existing file" link
+3. Drag ALL files from this folder into the browser:
+   - index.html          ← REQUIRED (main portfolio)
+   - README.md           ← REQUIRED (premium readme)
+   - _config.yml         ← REQUIRED (GitHub Pages config)
+   - CHANGELOG.md
+   - CONTRIBUTING.md
+   - LICENSE
+   - .gitignore
+4. Commit message: "🚀 Initial release: Portfolio V8"
+5. Click [Commit changes]
+
+For .github/workflows/deploy.yml:
+1. Click "Add file" → "Create new file"
+2. Type filename: .github/workflows/deploy.yml
+3. Paste the content from the deploy.yml file
+4. Commit: "ci: add GitHub Actions deploy workflow"
+
+Option B: Git Command Line
+───────────────────────────────────────
+git init
+git add .
+git commit -m "🚀 feat: Portfolio V8 initial release"
+git branch -M main
+git remote add origin https://github.com/Dev-moe-kyawaung/Moe-kyaw-aung-portfolio-V8.git
+git push -u origin main
+
+═══════════════════════════════════════════════════════════
+STEP 3 — Enable GitHub Pages
+═══════════════════════════════════════════════════════════
+
+1. Go to repo → Settings tab
+2. Scroll to "Pages" in left sidebar
+3. Source: "GitHub Actions"  ← Select this
+4. Save
+
+Wait 1–2 minutes for first deployment.
+
+═══════════════════════════════════════════════════════════
+STEP 4 — Verify Live URL
+═══════════════════════════════════════════════════════════
+
+✅ Your portfolio will be live at:
+https://Dev-moe-kyawaung.github.io/Moe-kyaw-aung-portfolio-V8/
+
+Check deployment status:
+→ Repo → Actions tab → "Deploy Portfolio V8 to GitHub Pages"
+
+═══════════════════════════════════════════════════════════
+STEP 5 — Add Repository Topics (SEO)
+═══════════════════════════════════════════════════════════
+
+Go to repo main page → Click ⚙️ gear next to "About"
+Add topics:
+android, kotlin, jetpack-compose, portfolio, mvvm,
+firebase, github-pages, myanmar, mobile-development,
+clean-architecture, senior-developer, microsoft
+
+═══════════════════════════════════════════════════════════
+STEP 6 — Set About Description
+═══════════════════════════════════════════════════════════
+
+Description: 🤖 Android Senior Developer Portfolio V8 | Moe Kyaw Aung @ Microsoft | Kotlin · Jetpack Compose · MVVM · Firebase | Tachileik, Myanmar 🇲🇲
+
+Website: https://Dev-moe-kyawaung.github.io/Moe-kyaw-aung-portfolio-V8/
+
+═══════════════════════════════════════════════════════════
+TROUBLESHOOTING
+═══════════════════════════════════════════════════════════
+
+❌ Page shows 404?
+→ Wait 5 min after enabling Pages, then hard-refresh (Ctrl+Shift+R)
+
+❌ Actions workflow failing?
+→ Settings → Actions → General → Allow all actions ✅
+
+❌ Avatar image not loading?
+→ Check internet connection; Gravatar CDN is: 0.gravatar.com
+
+═══════════════════════════════════════════════════════════
+FILE CHECKLIST
+═══════════════════════════════════════════════════════════
+
+[ ] index.html
+[ ] README.md
+[ ] _config.yml
+[ ] .gitignore
+[ ] LICENSE
+[ ] CHANGELOG.md
+[ ] CONTRIBUTING.md
+[ ] .github/workflows/deploy.yml
+[ ] .github/ISSUE_TEMPLATE/bug_report.md
+[ ] .github/ISSUE_TEMPLATE/feature_request.md
+
+═══════════════════════════════════════════════════════════
+RESULT — Live at:
+https://Dev-moe-kyawaung.github.io/Moe-kyaw-aung-portfolio-V8/
+═══════════════════════════════════════════════════════════

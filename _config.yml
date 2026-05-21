@@ -1,0 +1,32 @@
+# GitHub Pages Configuration
+# Portfolio V8 — Moe Kyaw Aung
+
+title: "Moe Kyaw Aung — Android Senior Developer"
+description: "Senior Android Developer at Microsoft with 12+ years experience. Kotlin · Jetpack Compose · MVVM · Firebase · Clean Architecture."
+baseurl: "/Moe-kyaw-aung-portfolio-V8"
+url: "https://Dev-moe-kyawaung.github.io"
+
+# Author info
+author:
+  name: "Moe Kyaw Aung"
+  email: "moekyawaung@fastmail.com"
+  location: "Tachileik, Myanmar"
+  github: "Dev-moe-kyawaung"
+  linkedin: "moe-kyaw-aung-2653093a1"
+  gravatar: "moekyawaung2026"
+
+# Build settings
+markdown: kramdown
+theme: null          # No theme — we use our own custom HTML/CSS
+
+# SEO
+lang: "en"
+timezone: "Asia/Rangoon"   # GMT+6:30 Myanmar Time
+
+# Exclude from build
+exclude:
+  - .github/
+  - CONTRIBUTING.md
+  - CHANGELOG.md
+  - "*.sh"
+  - node_modules/
